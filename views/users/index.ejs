@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row"><h2>Users Medical Records</h2></div>
+  <div class="row">
+    <table class="table table-inverse">
+      <thead>
+      <tr>
+        <th>#</th>
+        <th>User Name</th>
+        <th>Email</th>
+        <th>Medical Records Counts</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% var counter = 0;%>
+      <% for(var i=0; i < users.length; i++) { %>
+      <% if (users[i].medical_record && users[i].medical_record.length) { %>
+      <tr>
+        <td><%=counter+1%></td>
+        <td><%=users[i].name%></td>
+        <td><%=users[i].email%></td>
+        <td><a href='/users/<%=users[i].id%>/medical_records/'><%=users[i].medical_record[0].title%></a></td>
+        <% var counter = counter+1; %>
+      </tr>
+      <% } %>
+      <% } %>
+      </tbody>
+    </table>
+  </div>
+</div>

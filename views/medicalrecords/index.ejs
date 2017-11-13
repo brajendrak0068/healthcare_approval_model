@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row"><h4>User medical records</h4></div>
+  <div class="row">
+    <table class="table table-inverse">
+      <thead>
+      <tr>
+        <th>#</th>
+        <th>User Name</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Prescriptions</th>
+        <th>Last Updated At</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% for(var i=0; i < records.length; i++) { %>
+      <tr>
+        <td><%=i+1%></td>
+        <td><%=records[i].owner.name%></td>
+        <td><%=records[i].title%></td>
+        <td><%=records[i].description%></td>
+        <td><a href="/users/<%=records[i].owner.id %>/medical_records/<%=records[i].id%>/prescriptions/"><%=records[i].prescriptions.length%>  Prescriptions</a></td>
+        <td><%=records[i].updated_at%></td>
+      </tr>
+      <% } %>
+      </tbody>
+    </table>
+  </div>
+</div>

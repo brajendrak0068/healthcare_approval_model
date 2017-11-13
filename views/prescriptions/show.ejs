@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row"><h4>User Presciption </h4></div>
+  <div class="row">
+    <table class="table table-inverse">
+      <thead>
+      <tr>
+        <th>Title</th>
+        <th>Quantity</th>
+        <th>Duration</th>
+        <th>Frequency</th>
+        <th>Description</th>
+        <th>Created At</th>
+        <th>Last Updated At</th>
+      </tr>
+      </thead>
+      <tbody>
+     <% if(prescription[0].requests && prescription[0].requests.length> 0 ) { %>
+      <tr>
+        <td><%= prescription[0].title %></td>
+        <td><%= prescription[0].quantity %></td>
+        <td><%= prescription[0].duration %></td>
+        <td><%= prescription[0].frequency %></td>
+        <td><%= prescription[0].description %></td>
+        <td><%= prescription[0].created_at %></td>
+        <td><%= prescription[0].updated_at %></td>
+      </tr>
+      <% }  %>
+    </table>
+  </div>
+</div>
