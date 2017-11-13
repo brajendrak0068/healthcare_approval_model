@@ -17,10 +17,7 @@ Framework and tools:
 Open application in http://localhost:4000;
 
 Login Credentials for different doctor , Pharmacist and Patients:
-        name: 'Mr Patient 1',
-        email: 'patient1@gmail.com',
-        password: 'password'
-
+       
 
         name: 'Dr Doctor',
         email: 'doctor@gmail.com',
@@ -37,3 +34,8 @@ Login Credentials for different doctor , Pharmacist and Patients:
         name: 'Mr Patient 3',
         email: 'patient3@gmail.com',
         password: 'password'
+        
+        name: 'Mr Patient 1',
+        email: 'patient1@gmail.com',
+        password: 'password'
+
