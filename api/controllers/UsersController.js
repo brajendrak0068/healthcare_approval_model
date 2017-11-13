@@ -14,7 +14,7 @@ module.exports = {
           return next(error);
         }
         if (!users) {
-          return res.notFound('Could not find Finn, sorry.');
+          return res.notFound('Could not find users, sorry.');
         }
         res.view('users/index',{users: users})
       });
