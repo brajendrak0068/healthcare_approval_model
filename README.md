@@ -6,13 +6,13 @@ Framework and tools:
 
 <h1>Before Starting</h1>
 
-1.Please make sure you have Node is installed.
-2.Make sure postgresql is installed and running
-3.Seeding the data in default database of postgresql but in production you have to create the database and run migratiions manauly. 
+<p>1.Please make sure you have Node is installed.</p>
+<p>2.Make sure postgresql is installed and running</p>
+<p>3.Seeding the data in default database of postgresql but in production you have to create the database and run migratiions manauly. </p>
 <h1>Commands to run</h1>
 
-1.cd npm install
-2.sails lift
+<p>cd npm install</p>
+<p>sails lift</p>
 
 Open application in http://localhost:4000;
 
