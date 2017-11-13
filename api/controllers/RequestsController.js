@@ -8,7 +8,6 @@
 
 module.exports = {
   create: function (req, res) {
-     var currentUrl =  req.url;
      var prescriptionId = req.query.prescriptionId;
      var requestedForId = req.query.requestedForId;
      var requesterId =  req.session.user.id;
@@ -17,7 +16,7 @@ module.exports = {
         res.serverError(err);
       }
       if (!request) {
-        return res.notFound('Could not find Finn, sorry.');
+        return res.notFound('Could not find request, sorry.');
       }
       res.redirect(req.session.currentUrl);
     });
@@ -29,7 +28,7 @@ module.exports = {
         res.serverError(err);
       }
       if (!requests) {
-        return res.notFound('Could not find Finn, sorry.');
+        return res.notFound('Could not find requests, sorry.');
       }
       res.view('requests/index', {requests: requests});
     });
@@ -43,7 +42,7 @@ module.exports = {
         res.serverError(err);
       }
       if (!request) {
-        return res.notFound('Could not find Finn, sorry.');
+        return res.notFound('Could not find request, sorry.');
       }
       res.redirect('/requests');
     });
