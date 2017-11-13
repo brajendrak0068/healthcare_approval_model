@@ -1,8 +1,8 @@
 'use strict';
 /**
- * UsersController
+ * MedicalRecordsController
  *
- * @description :: Server-side logic for managing Users
+ * @description :: Server-side logic for managing Medical Records
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
 

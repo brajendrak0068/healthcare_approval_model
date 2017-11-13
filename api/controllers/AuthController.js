@@ -1,6 +1,6 @@
 'use strict';
 /**
- * UsersController
+ * AuthController
  *
  * @description :: Server-side logic handling the users authentication
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers

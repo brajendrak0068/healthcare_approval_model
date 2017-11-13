@@ -1,8 +1,8 @@
 'use strict';
 /**
- * UsersController
+ * PrescriptionsController
  *
- * @description :: Server-side logic for managing Users
+ * @description :: Server-side logic for managing the Prescriptions
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
 
