@@ -16,7 +16,7 @@ Framework and tools:
 
 Open application in http://localhost:4000;
 
-Login Credentials for different doctor , Pharmacist and Patients:
+Login Credentials for doctor , Pharmacist and Patients:
        
 
         name: 'Dr Doctor',
