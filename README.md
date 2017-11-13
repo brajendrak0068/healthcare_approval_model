@@ -11,8 +11,8 @@ Framework and tools:
 <p>3.Seeding the data in default database of postgresql but in production you have to create the database and run migratiions manauly. </p>
 <h1>Commands to run</h1>
 
-<p>cd npm install</p>
-<p>sails lift</p>
+<p>1.npm install</p>
+<p>2.sails lift</p>
 
 Open application in http://localhost:4000;
 
