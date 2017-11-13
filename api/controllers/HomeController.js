@@ -7,15 +7,15 @@
 
 module.exports = {
 	index: function (req, res, next) {
-    var title  = req.session.user && req.session.user.role.toLowerCase();
-   console.log('titletitle', title);
-   if(title==='patient'){
-     res.redirect('/requests');
-   } else if(title === 'doctor' || title === 'pharmacist') {
-     res.redirect('/users');
-   } else {
-     res.redirect('/login');
-   }
+        var title  = req.session.user && req.session.user.role.toLowerCase();
+   
+       if(title==='patient'){
+        res.redirect('/requests');
+        } else if(title === 'doctor' || title === 'pharmacist') {
+        res.redirect('/users');
+        } else {
+        res.redirect('/login');
+     }
   },
   getLoginPage: function (req, res, next){
 
