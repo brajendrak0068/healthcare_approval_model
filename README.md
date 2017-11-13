@@ -1,5 +1,5 @@
 Framework and tools:
-1. I have built it, Usinng Sails.JS MVC framework( node.js)  with PostgreSQL as a database.
+1. I have built it, Usinng Sails.JS MVC framework of node.js  with PostgreSQL as a database.
 2. Currently ,User sessions information are getting stored in-memory so after the restart previous information will be lost.
 
 
