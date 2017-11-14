@@ -9,11 +9,10 @@ Framework and tools:
 <p>1.Please make sure you have Node is installed.</p>
 <p>2.Make sure postgresql is installed and running</p>
 <p>3.Seeding the data in default database of postgresql but in production you have to create the database and run migratiions manauly. </p>
-<h1>Commands to run</h1>
 
 <h1>database connections sesttings</h1>
  please change the username and password
-   
+   <p>
    somePostgresqlServerLocal: {
      adapter: 'sails-postgresql',
      host: 'localhost',
@@ -22,8 +21,9 @@ Framework and tools:
      password: 'test', // optional
      database: 'postgres' //optional
    }
+   </p>
    
-   
+<h1>Commands to run</h1>
 
 
 <p>1.npm install</p>
