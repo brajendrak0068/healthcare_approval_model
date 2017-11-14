@@ -11,6 +11,21 @@ Framework and tools:
 <p>3.Seeding the data in default database of postgresql but in production you have to create the database and run migratiions manauly. </p>
 <h1>Commands to run</h1>
 
+<h1>database connections sesttings</h1>
+ please change the username and password
+   
+   somePostgresqlServerLocal: {
+     adapter: 'sails-postgresql',
+     host: 'localhost',
+     poolSize:1,
+     user: 'brajendrakumar', // optional
+     password: 'test', // optional
+     database: 'postgres' //optional
+   }
+   
+   
+
+
 <p>1.npm install</p>
 <p>2.sails lift</p>
 
