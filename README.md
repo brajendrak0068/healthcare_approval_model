@@ -11,15 +11,15 @@ Framework and tools:
 <p>3.Seeding the data in default database of postgresql but in production you have to create the database and run migratiions manauly. </p>
 
 <h1>database connections sesttings</h1>
- please change the username and password
+ please change the username and password in file connections.js
    <p>
-   somePostgresqlServerLocal: {
-     adapter: 'sails-postgresql',
-     host: 'localhost',
-     poolSize:1,
-     user: 'brajendrakumar', // optional
-     password: 'test', // optional
-     database: 'postgres' //optional
+   somePostgresqlServerLocal: {<br>
+     adapter: 'sails-postgresql',<br>
+     host: 'localhost',<br>
+     poolSize:1,<br>
+     user: 'brajendrakumar', // optional <br>
+     password: 'test', // optional <br>
+     database: 'postgres' //optional <br>
    }
    </p>
    
